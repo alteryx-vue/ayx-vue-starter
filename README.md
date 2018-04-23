@@ -1,6 +1,6 @@
 # Alteryx Vue Starter Template
 
-<img src='./icon.png' height='100'><img src='./public/alteryxomnibus.jpg' height='100'>
+<img src='./icon.png' height='120'><img src='./public/alteryxomnibus.jpg' height='120'>
 
 [![Build Status](https://travis-ci.org/alteryx-vue/ayx-vue-starter.svg?branch=master)](https://travis-ci.org/alteryx-vue/ayx-vue-starter) [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE)
 > An Alteryx Vue starter template for developing HTML/JavaScript tools with Vue.js and Vuetify
