@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<AlteryxJavaScriptPlugin>
+  <EngineSettings EngineDllEntryPoint="engine.html" EngineDll="HTML" SDKVersion="10.1" />
+  <Properties>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Alteryx Vue Starter</Name>
+      <Description>
+        Starter template for building an Alteryx HTML/JavaScript tool using Vue.js and Vuetify
+      </Description>
+      <RootToolName>Alteryx Vue Starter</RootToolName>
+      <ToolVersion>v0.0.0</ToolVersion>
+      <ToolInDb value="false" />
+      <CategoryName>Developer</CategoryName>
+      <SearchTags>vue,vuejs,vuetify,sdk, starter, alteryx</SearchTags>
+      <Author>Taylor Cox</Author>
+      <Company>github.com/alteryx-vue</Company>
+      <Copyright/>
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+  </Properties>
+  <GuiSettings Help="" Html="index.html" Icon="icon.png" SDKVersion="10.1">
+    <InputConnections/>
+    <OutputConnections>
+      <Connection Name="Output" AllowMultiple="False" Optional="False" Type="Connection" Label="O"/>
+    </OutputConnections>
+  </GuiSettings>
+</AlteryxJavaScriptPlugin>

@@ -1,0 +1,7 @@
+# ignores
+node_modules/
+build/
+package-lock.json
+*.log
+*.lock
+.DS_Store

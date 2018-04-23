@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <script>
+        // Include version 1 of the engine base library.
+        document.write('<link rel="import" href="' + window.Alteryx.LibDir + '1/lib/alteryx/engine/includes.html">');
+    </script>
+
+    <script>
+
+        Alteryx.Plugin.DefineConnections = function(){
+            return {
+                IncomingConnections: [],
+                OutgoingConnections: [{
+                    name: "Output"
+                }]
+            };
+        };
+
+        Alteryx.Plugin.PI_Init = function(config){
+        };
+
+        Alteryx.Plugin.II_Init = function(metaInfo){
+        };
+
+        Alteryx.Plugin.II_PushRecords = function(data){
+        };
+
+        Alteryx.Plugin.II_AllClosed = function(){
+            Alteryx.Engine.SendMessage.CloseOutput(Alteryx.Plugin.DefineConnections().OutgoingConnections[0].name);
+            Alteryx.Engine.SendMessage.Complete();
+        };
+
+        Alteryx.Plugin.PI_PushAllRecords = function(recordLimit){             
+            Alteryx.Engine.SendMessage.Complete();
+        };
+
+        Alteryx.Plugin.PI_Close = function(){
+            Alteryx.Engine.SendMessage.PI_Close();
+        };
+
+    </script>
+</head>
+<body>
+</body>
+</html>
