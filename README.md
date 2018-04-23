@@ -29,7 +29,7 @@ git clone https://github.com/alteryx-vue/ayx-vue-starter
 # git clone https://github.com/alteryx-vue/ayx-vue-starter your-project
 
 # cd to project
-cd ayx-vue-starter // or cd your-project
+cd ayx-vue-starter # or cd your-project
 ```
 
 When re-tooling a new project, be sure to rename files and update metadata appropriately before building.
