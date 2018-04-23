@@ -32,14 +32,14 @@ git clone https://github.com/alteryx-vue/ayx-vue-starter
 cd ayx-vue-starter # or cd your-project
 ```
 
-When re-tooling a new project, be sure to rename files and update metadata appropriately before building.
-
-- rename `ayx-vue-starterConfig.xml` as `your-projectConfig.xml`
-- rename component files (`./src/components/AyxVueNav.vue` as `YourProject.Nav`)
-- edit component script export names
-- edit template tags in `App.vue`, etc. (`<ayx-vue-nav>` as  `<your-project-nav>`)
-- edit meta info in `index.html` and `package.json`
-- etc. and so on
+> When re-tooling a new project, be sure to rename files and update metadata appropriately before building.
+>
+> - rename `ayx-vue-starterConfig.xml` as `your-projectConfig.xml`
+> - rename component files (`./src/components/AyxVueNav.vue` as `YourProject.Nav`)
+> - edit component script export names
+> - edit template tags in `App.vue`, etc. (`<ayx-vue-nav>` as  `<your-project-nav>`)
+> - edit meta info in `index.html` and `package.json`
+> - etc. and so on
 
 ## Build Setup & Testing
 
