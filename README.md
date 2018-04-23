@@ -6,11 +6,9 @@
 ### Requirements
 - [NodeJS/npm](https://nodejs.org)
 
-## Install/Download
+## Installation
 
-### Clone to one of the Alteryx tool directories
-
-Alteryx will typically install tools in one of the following locations:
+#### Alteryx will typically install tools in one of the following locations...
 ``` bash
 C:\Users\{user}\AppData\Roaming\Alteryx\Tools
 C:\Program Files\Alteryx\bin\HtmlPlugins
