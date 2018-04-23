@@ -1,7 +1,7 @@
 {
   "name": "ayx-vue-starter",
   "description": "Starter template for building an Alteryx HTML/JavaScript tool using Vue.js and Vuetify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Taylor Cox",
   "private": true,
   "scripts": {
@@ -9,8 +9,6 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
-    "axios": "^0.17.1",
-    "npm": "^5.7.1",
     "vue": "^2.5.3",
     "vuelidate": "^0.6.1",
     "vuetify": "^0.17.4",
