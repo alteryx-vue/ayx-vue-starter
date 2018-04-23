@@ -43,7 +43,7 @@ When re-tooling a new project, be sure to rename files and update metadata appro
 
 ## Build Setup & Testing
 
-#### install dependencies
+#### Install dependencies
 
 `npm install`
 
