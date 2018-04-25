@@ -42,13 +42,13 @@ window.Alteryx.Gui.BeforeLoad = function (manager, AlteryxDataItems, json) {
   }
 
   // ensure that arrays stay arrays...
-  const forceArray = (field) => {
-    return (typeof field == 'string') ? [field] : ((typeof field == 'undefined') ? ([]) : (field))
+  const ensureArray = (field) => {
+    return typeof field == 'string' || (typeof field == 'object' && typeof field.length == 'undefined') ? [field] : typeof field == 'undefined' ? [] : field
   }
 
   // get peristed state from Alteryx Designer XML Config and pass to Vuex store
   store.state.ui = json.Configuration || store.state.ui
-  store.state.ui.selections = forceArray(store.state.ui.selections)
+  store.state.ui.selections = ensureArray(store.state.ui.selections)
   handleEncryptedConfigField('password')
 
 }
